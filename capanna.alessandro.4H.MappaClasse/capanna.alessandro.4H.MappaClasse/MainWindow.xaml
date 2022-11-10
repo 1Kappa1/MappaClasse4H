@@ -1,0 +1,200 @@
+﻿<Window x:Class="capanna.alessandro._4H.MappaClasse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:capanna.alessandro._4H.MappaClasse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+        
+        <!--Quarta Riga-->
+        <Button
+            Grid.Row="2"
+            Grid.Column="8"
+            ButtonBase.Click="Button_Click"
+            x:Name="btn1"
+        />
+        
+        <Button
+            Grid.Row="2"
+            Grid.Column="9"
+            ButtonBase.Click="Button_Click_1"
+            x:Name="btn2"
+        />
+        
+        <!--Terza Riga-->
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            ButtonBase.Click="Btn20_Click"
+            x:Name="Btn20"
+        />
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="4"
+            ButtonBase.Click="Button_Click_2"
+            x:Name="btn3"
+        />
+        
+        <Button
+            Grid.Row="4"
+            Grid.Column="5"
+            ButtonBase.Click="Button_Click_3"
+            x:Name="btn4"
+        />
+        <Button
+            Grid.Row="4"
+            Grid.Column="6"
+            ButtonBase.Click="Button_Click_4"
+            x:Name="btn5" 
+        />
+        
+        <Button
+            Grid.Row="4"
+            Grid.Column="7"
+            ButtonBase.Click="Button_Click_5"
+            x:Name="btn6" 
+        />
+        
+        <Button
+            Grid.Row="4"
+            Grid.Column="8"
+            ButtonBase.Click="Button_Click_6"
+            x:Name="btn7"
+        />
+        
+        <!--Seconda Riga-->
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="3"
+            ButtonBase.Click="Btn19_Click"
+            x:Name="btn19"
+        />
+   
+        <Button
+            Grid.Row="6"
+            Grid.Column="4"
+            ButtonBase.Click="Button_Click_7"
+            x:Name="btn8"
+        />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="5"
+            ButtonBase.Click="Button_Click_8"
+            x:Name="btn9"
+        />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="7"
+            ButtonBase.Click="Button_Click_10"
+            x:Name="btn11"
+        />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="8"
+            ButtonBase.Click="Button_Click_11"
+            x:Name="btn12"
+        />
+
+        <!--Prima Riga-->
+        
+        <Button
+            Grid.Row="8"
+            Grid.Column="4"
+            ButtonBase.Click="Button_Click_12"
+            x:Name="btn13"
+        />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="5"
+            ButtonBase.Click="Button_Click_13"
+            x:Name="btn14"
+        />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="6"
+            ButtonBase.Click="Button_Click_14"
+            x:Name="btn15"
+        />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="7"
+            ButtonBase.Click="Button_Click_15"
+            x:Name="btn16"
+        />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="8"
+            ButtonBase.Click="Button_Click_16"
+            x:Name="btn17"
+        />
+
+        <!--Cattedra-->
+
+        <Button
+            Grid.Row="10"
+            Grid.Column="1"
+            ButtonBase.Click="Button_Click_17"
+            x:Name="btn18"
+        />
+
+        <!--Special Button-->
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            ButtonBase.Click="Tutti_Click"
+            x:Name="Tutti"
+            Content="Rivela tutti"
+        />
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            ButtonBase.Click="Nascosti_Click"
+            x:Name="Nascosti"
+            Content="Nascondi tutti"
+        />
+
+
+    </Grid>
+</Window>
